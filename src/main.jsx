@@ -1,6 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import './index.css'
+// import './index.css'
 import App from './App.jsx'
 import Hook1_app from './Hook1_app.jsx'
 import HookTask1App from './HookTask1app.jsx'
@@ -10,6 +10,8 @@ import Routing from './Routing.jsx'
 import Products from './Products.jsx'
 import ImageMechanism1 from './ImageMechanism1.jsx'
 import ImageMechanism2 from './ImageMechanism2.jsx'
+import FullTask from './FullTask.jsx'
+import Addons from './Addons.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -20,7 +22,9 @@ createRoot(document.getElementById('root')).render(
     {/* <NewtaskApp/> */}
     {/* <Routing/> */}
     {/* <Products/> */}
-    <ImageMechanism1/>
-    <ImageMechanism2/>
+    {/* <ImageMechanism1/>
+    <ImageMechanism2/> */}
+    <FullTask/>
+    {/* <Addons/> */}
   </StrictMode>,
 )
